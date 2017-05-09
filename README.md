@@ -58,8 +58,8 @@ And that observer should be able to edit that observation
 
 ## Technical Restrictions
 
-- The automated tests should be written using a browser automation framework (e.g. Selenium)
-- A test plan should be included, and should clearly indicate the steps taken to verify that the features work as defined by the requirements
+- Write the tests using a browser automation framework (e.g. Selenium)
+- Include a test plan that clearly indicates the steps you took to verify that the features work as defined by the requirements above.
 
 ## Instructions
 
