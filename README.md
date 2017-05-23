@@ -31,26 +31,26 @@ So that I may make corrections to the previously submitted observation
 
 ## Scenarios
 ```
-Given an an observer who wants to record an observation for a participant
+Given an observer who wants to record an observation for a participant
 When that observer selects a rubric to measure the participant against
 Then that observer should be presented with a blank observation form based on that rubric
 ```
 ```
-Given an an observer who inputs complete data and valid for an observation
+Given an observer who inputs complete data and valid for an observation
 When that observer submits the observation
 Then the user should be informed that the observation was submitted successfully
 And that user should be able to view the observation in their list of observations
 ```
 
 ```
-Given an an observer who inputs incomplete data for an observation
+Given an observer who inputs incomplete data for an observation
 When that observer attempts to submit the observation
 Then the user should be informed that the observation is incomplete submitted successfully
 And the user should be able to identify incomplete/invalid observation fields
 ```
 
 ```
-Given an an observer who has submitted an observation that they wish to correct
+Given an observer who has submitted an observation that they wish to correct
 When that observer recalls the observation
 Then that observer should receive a message indicating that the observation has been recalled
 And that observer should be able to edit that observation
