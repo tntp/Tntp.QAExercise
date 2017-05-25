@@ -1,1 +1,6 @@
-*swp
+/target/
+
+.settings/
+.classpath
+.project
+/test-output/
